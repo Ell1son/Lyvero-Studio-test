@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="dark" />
+    <title>Lyvero Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a class="logo" href="#top">Lyvero Studio</a>
+        <nav aria-label="Menu">
+          <a href="#works" data-i18n="nav_works"></a
+          ><a href="#services" data-i18n="nav_services"></a
+          ><a href="#pricing" data-i18n="nav_pricing"></a
+          ><a href="#process" data-i18n="nav_process"></a
+          ><a href="#contact" data-i18n="nav_contact"></a>
+        </nav>
+        <div class="lang" id="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en">EN</button
+          ><button type="button" data-lang="ru">RU</button
+          ><button type="button" data-lang="et">ET</button>
+        </div>
+      </header>
+
+      <main id="top">
+        <div class="hero">
+          <h1 data-i18n="hero_h"></h1>
+          <p data-i18n="hero_p"></p>
+          <a class="btn" href="#works" data-i18n="btn_works"></a
+          ><a class="btn ghost" href="#contact" data-i18n="btn_contact"></a>
+        </div>
+
+        <section id="works">
+          <h2 data-i18n="works_h"></h2>
+          <p class="lead" data-i18n="works_lead"></p>
+          <div class="filters" id="filters" role="group"></div>
+          <div class="grid" id="grid"></div>
+        </section>
+
+        <section id="services">
+          <h2 data-i18n="services_h"></h2>
+          <p class="lead" data-i18n="services_lead"></p>
+          <div class="cols">
+            <div>
+              <h3 data-i18n="s1h"></h3>
+              <p data-i18n="s1p"></p>
+            </div>
+            <div>
+              <h3 data-i18n="s2h"></h3>
+              <p data-i18n="s2p"></p>
+            </div>
+            <div>
+              <h3 data-i18n="s3h"></h3>
+              <p data-i18n="s3p"></p>
+            </div>
+            <div>
+              <h3 data-i18n="s4h"></h3>
+              <p data-i18n="s4p"></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing">
+          <h2 data-i18n="pricing_h"></h2>
+          <p class="lead" data-i18n="pricing_lead"></p>
+          <div class="plans">
+            <div class="plan">
+              <h3 data-i18n="p1h"></h3>
+              <p data-i18n="p1p"></p>
+              <div class="price"><small data-i18n="from"></small> € 100</div>
+              <ul>
+                <li data-i18n="p1f1"></li>
+                <li data-i18n="p1f2"></li>
+                <li data-i18n="p1f3"></li>
+                <li data-i18n="p1f4"></li>
+              </ul>
+            </div>
+            <div class="plan featured">
+              <h3 data-i18n="p2h"></h3>
+              <p data-i18n="p2p"></p>
+              <div class="price">
+                <small data-i18n="from"></small> € 150 - 300
+              </div>
+              <ul>
+                <li data-i18n="p2f1"></li>
+                <li data-i18n="p2f2"></li>
+                <li data-i18n="p2f3"></li>
+                <li data-i18n="p2f4"></li>
+                <li data-i18n="p2f5"></li>
+              </ul>
+            </div>
+            <div class="plan">
+              <h3 data-i18n="p3h"></h3>
+              <p data-i18n="p3p"></p>
+              <div class="price">
+                <small data-i18n="from"></small> € 500 - 1000+
+              </div>
+              <ul>
+                <li data-i18n="p3f1"></li>
+                <li data-i18n="p3f2"></li>
+                <li data-i18n="p3f3"></li>
+                <li data-i18n="p3f4"></li>
+              </ul>
+            </div>
+          </div>
+          <h3 class="terms-title" data-i18n="terms_h"></h3>
+          <div class="terms">
+            <div>
+              <h4 data-i18n="t1h"></h4>
+              <p data-i18n="t1p"></p>
+            </div>
+            <div>
+              <h4 data-i18n="t2h"></h4>
+              <p data-i18n="t2p"></p>
+            </div>
+            <div>
+              <h4 data-i18n="t3h"></h4>
+              <p data-i18n="t3p"></p>
+            </div>
+            <div>
+              <h4 data-i18n="t4h"></h4>
+              <p data-i18n="t4p"></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="process">
+          <h2 data-i18n="process_h"></h2>
+          <p class="lead" data-i18n="process_lead"></p>
+          <ol class="steps">
+            <li>
+              <h3 data-i18n="st1h"></h3>
+              <p data-i18n="st1p"></p>
+            </li>
+            <li>
+              <h3 data-i18n="st2h"></h3>
+              <p data-i18n="st2p"></p>
+            </li>
+            <li>
+              <h3 data-i18n="st3h"></h3>
+              <p data-i18n="st3p"></p>
+            </li>
+            <li>
+              <h3 data-i18n="st4h"></h3>
+              <p data-i18n="st4p"></p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="contact" class="contact">
+          <h2 data-i18n="contact_h"></h2>
+          <p class="lead" data-i18n="contact_lead"></p>
+          <a
+            class="mail"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=lyverostudio@gmail.com"
+            target="_blank"
+            rel="noopener"
+            >lyverostudio@gmail.com</a
+          >
+          <div class="links">
+            <a href="#">Telegram</a>
+            <a href="https://www.instagram.com/lyverostudio/">Instagram</a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="f-top">
+          <a class="logo" href="#top">Lyvero Studio</a>
+          <ul class="social" aria-label="Social">
+            <li>
+              <a href="#" aria-label="Facebook"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"
+                  /></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/lyverostudio/"
+                aria-label="Instagram"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"
+                  /></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=lyverostudio@gmail.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Gmail"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2.5V9.3L12 14 5.5 9.3V19H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm.6 1.8L12 12.8l8.4-6H3.6z"
+                  /></svg
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="TikTok"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M16.6 2h-3.2v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V8.6a5.9 5.9 0 1 0 5 5.8V8.1a7.4 7.4 0 0 0 4.3 1.4V6.3A4.3 4.3 0 0 1 16.6 2z"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="f-bot">
+          © <span id="y"></span> Lyvero Studio. <span data-i18n="rights"></span>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
